@@ -1,10 +1,110 @@
 /* Font -- Quicksand  */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
 .quicksand-font {
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
+/* Shared Styles  */
+* {
+  margin: 0;
+  padding: 0;
+}
+.color-white {
+  color: #f7f7f7;
+}
+
+.color-skyblue {
+  color: #01acfd;
+}
+
+.color-black {
+  color: #111111;
+}
+
+.color-orange {
+  color: #fea301;
+}
+
+.color-seagreen {
+  color: rgb(5, 212, 223);
+}
+
+.color-purple {
+  color: rgb(93, 88, 239);
+}
+
+/* Header Styles  */
+.header {
+  width: 1440px;
+  height: 102px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Nav bar styles */
+.nav-bar {
+  width: 1160px;
+  height: 62px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.nav-logo {
+  width: 202px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 186px;
+}
+.nav-links {
+  width: 387px;
+  height: 30px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0 0 0;
+}
+.nav-links li {
+  list-style-type: none;
+}
+.nav-links li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.nav-btn-yellow {
+  width: 197px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 10px;
+  margin: 0px 186px;
+  border: none;
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgb(255, 255, 255) ;
+}
