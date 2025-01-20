@@ -1,0 +1,37 @@
+@media screen and (max-width: 576px) {
+  .header {
+    width: 100%;
+    max-width: 390px;
+    height: 70px;
+    border: 1px solid #fea301;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    
+  }
+  .nav-bar {
+    width: 100%;
+    max-width: 358px;
+    height: 46px;
+    padding: 5px;
+    margin: 10px 0px;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    width: 39.03px;
+    height: 46px;
+    margin: 0 2.49px;
+  }
+
+  .nav-logo h1 {
+    display: none;
+  }
+  .nav-links-container, .nav-btn{
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+}
+
