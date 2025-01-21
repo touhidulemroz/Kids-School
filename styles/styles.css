@@ -37,24 +37,33 @@
   color: rgb(93, 88, 239);
 }
 
+body {
+  max-width: 1440px;
+}
+
 /* Header Styles  */
 .header {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   height: 102px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 20px 0px 20px 0px;
+  background-color: #f7f7f7;
 }
 
 /* Nav bar styles */
 .nav-bar {
-  width: 1160px;
+  width:100%;
+  max-width: 1160px;
   height: 62px;
 
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 10px 0px;
+  /* overflow: hidden; */
 }
 
 .nav-logo {
@@ -62,10 +71,10 @@
   height: 62px;
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
-  margin: 0px 186px;
+  margin: 0px 186px 0px 0px;
 }
 .nav-links {
   width: 387px;
@@ -96,14 +105,12 @@
   align-items: center;
   gap: 10;
   padding: 10px;
-  margin: 0px 186px;
+  margin: 0px 0px 0px  186px;
   border: none;
   border-radius: 12px;
   background: rgb(254, 163, 1);
-
   font-size: 20px;
   font-weight: 600;
-  line-height: 30px;
   color: rgb(255, 255, 255);
 }
 
@@ -111,3 +118,56 @@
   display: none;
 }
 
+/* Banner Section Styles */
+.banner-section {
+  background-color: #f7f7f7;
+}
+.banner {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1160px;
+  height: 575px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #f7f7f7;
+  
+}
+.banner-info {
+  margin: 0 auto;
+  width: 640px;
+  height: 331px;
+  margin: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.banner-btn {
+  width: 197px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+}
+.banner-img{
+  margin: 0 auto;
+}
+.banner-img img{
+  width: 460px;
+  height: 575px;;
+}
