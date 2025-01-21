@@ -133,6 +133,7 @@ body {
   align-items: center;
   gap: 50px;
   background-color: #f7f7f7;
+  /* overflow: hidden; */
 }
 .banner-info {
   margin: 0 auto;
@@ -167,6 +168,7 @@ body {
   margin: 0 auto;
 }
 .banner-img img {
+             
   width: 460px;
   height: 575px;
 }
@@ -207,8 +209,8 @@ body {
   width: 100%;
   max-width: 1160px;
   height: 481.5px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-around;
 }
 
 .ss-card-k {

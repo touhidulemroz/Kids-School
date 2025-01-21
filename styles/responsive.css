@@ -4,7 +4,7 @@
     width: 100%;
     max-width: 390px;
     height: 70px;
-    border: 1px solid #fea301;
+    border-bottom: 1px solid #fea301;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,11 +56,119 @@
   .banner-info-description {
     width: 357px;
     height: 54px;
-
   }
 
   .banner-img img {
+    /* object-fit: cover; */
+    margin-top: 150px;
     width: 336.58px;
     height: 413px;
+  }
+
+  /* standard section media query */
+  .standard-section {
+    background-color: white;
+    background-repeat: repeat-y;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ss-title {
+    font-size: 26px;
+  }
+  .ss-cc {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 0;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ss-card-k {
+    /* width: 100%; */
+    max-width: 357px;
+    height: 321.28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22px;
+    padding: 36px 28px 36px 28px;
+  }
+  .ss-card-k img {
+    width: 88px;
+    height: 75px;
+  }
+
+  .ss-card-k h3 {
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 16.6px;
+    font-weight: 700;
+    line-height: 20.75px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .ss-card-e {
+    /* width: 100%; */
+    max-width: 357px;
+    height: 321.28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22px;
+    padding: 36px 28px 36px 28px;
+    /* margin-bottom: 10px; */
+  }
+
+  .ss-card-e img {
+    width: 88px;
+    height: 75px;
+  }
+
+  .ss-card-e h3 {
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 16.6px;
+    font-weight: 700;
+    line-height: 20.75px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .ss-card-m {
+    /* width: 100%; */
+    max-width: 357px;
+    height: 321.28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22px;
+    padding: 36px 28px 36px 28px;
+  }
+
+  .ss-card-m img {
+    width: 88px;
+    height: 75px;
+  }
+
+  .ss-card-m h3 {
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 16.6px;
+    font-weight: 700;
+    line-height: 20.75px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .ssc-second-title {
+    font-size: 15px;
+  }
+
+  .ss-carousels {
+    display: none;
   }
 }
