@@ -168,7 +168,6 @@ body {
   margin: 0 auto;
 }
 .banner-img img {
-             
   width: 460px;
   height: 575px;
 }
@@ -177,12 +176,16 @@ body {
 .standard-section {
   width: 100%;
   max-width: 1440px;
-  height: 879px;
+  /* height: 879px; */
   margin: 0 auto;
-  gap: 80;
+  gap: 80px;
   padding: 60px 0px 60px 0px;
   background-color: #f7f7f7;
   background-image: url(../assets/images/bg.png);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   display: flex;
   flex-direction: column;
@@ -192,7 +195,7 @@ body {
 .ss-div {
   width: 460.61px;
   height: 57.5px;
-  margin: 80px 0px;
+  /* margin: 80px 0px; */
 }
 .ss-title {
   color: rgb(0, 0, 0);
@@ -402,4 +405,21 @@ body {
   letter-spacing: 0%;
   text-align: center;
 }
-/* ------------------------------ */
+
+/* ---------------------------- */
+
+.os {
+  position: absolute;
+  width: 1440px;
+  height: 1018.02px;
+  left: 0;
+  top: 1554px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80;
+  padding: 60px 0px 60px 0px;
+  background: url(../assets/images/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
