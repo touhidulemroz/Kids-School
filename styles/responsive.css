@@ -185,7 +185,7 @@
 
   .os {
     max-width: 425px;
-    height: 620px;
+    height: 650px;
 
     display: flex;
     flex-direction: column;
@@ -198,6 +198,8 @@
         rgba(255, 255, 255, 0),
         rgba(254, 163, 1, 0.3) 100%
       );
+
+    /* margin-bottom: 30px; */
   }
   .os-title h1 {
     margin-top: 20px;
@@ -243,4 +245,8 @@
     letter-spacing: 0%;
     text-align: left;
   }
+
+
+  /* footer section media query */
+
 }
