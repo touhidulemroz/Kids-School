@@ -2,19 +2,19 @@
   /* header section media query */
   .header {
     width: 100%;
-    max-width: 390px;
+    max-width: 425px;
+    margin: 0 auto;
     height: 70px;
-    border-bottom: 1px solid #fea301;
+    border-bottom: 2px solid #fea301;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 10px;
     background-color: white;
   }
   .nav-bar {
     width: 100%;
-    max-width: 358px;
-    height: 46px;
+    max-width: 425px;
+    height: 45px;
     padding: 5px;
     margin: 10px 0px;
     justify-content: space-between;
@@ -34,10 +34,10 @@
   }
   .hamburger-menu {
     display: block;
+    padding-right: 10px;
   }
   /* banner section media query */
   .banner-section {
-    /* width: 357px; */
     height: 725px;
     background-color: white;
   }
@@ -52,8 +52,7 @@
   }
   .banner-info {
     width: 100%;
-    max-width: 390px;
-    padding: 0 10px;
+    max-width: 425px;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -64,10 +63,13 @@
   }
 
   .banner-img img {
-    /* object-fit: cover; */
-    margin-top: 150px;
+    margin: 0 auto;
+    margin-top: 130px;
     width: 336.58px;
     height: 413px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
   }
 
   /* standard section media query */
@@ -182,12 +184,13 @@
   /* Our Stories section media query */
 
   .os {
-    max-width: 390px;
+    max-width: 425px;
     height: 620px;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    /* align-items: center; */
     /* margin: 40px 0px 20px 0px; */
     background: url(../assets/images/bg.png),
       linear-gradient(
@@ -225,7 +228,7 @@
     font-size: 9.13px;
     margin-top: -40px;
   }
-  
+
   .os-card-right-info h1 {
     color: rgb(0, 0, 0);
     width: 107.92px;
