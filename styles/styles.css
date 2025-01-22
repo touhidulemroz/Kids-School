@@ -10,7 +10,7 @@
 
 /* Shared Styles  */
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   
 }
@@ -37,15 +37,9 @@
 .color-purple {
   color: rgb(93, 88, 239);
 }
-
-body {
-  max-width: 1440px;
-}
-
 /* Header Styles  */
 .header {
   width: 100%;
-  max-width: 1440px;
   height: 102px;
   display: flex;
   justify-content: space-around;
@@ -57,7 +51,7 @@ body {
 /* Nav bar styles */
 .nav-bar {
   width: 100%;
-  max-width: 1160px;
+  width: 1160px;
   height: 62px;
 
   display: flex;
@@ -126,7 +120,7 @@ body {
 .banner {
   margin: 0 auto;
   width: 100%;
-  max-width: 1160px;
+  width: 1160px;
   height: 575px;
   display: flex;
   flex-direction: row;
@@ -134,7 +128,6 @@ body {
   align-items: center;
   gap: 50px;
   background-color: #f7f7f7;
-  /* overflow: hidden; */
 }
 .banner-info {
   margin: 0 auto;
@@ -144,7 +137,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* align-items: center; */
+}
+
+.banner-info h1,button {
+  margin: 0 0 0 0;
 }
 
 .banner-btn {
@@ -176,18 +172,14 @@ body {
 /* Standard Section Styles */
 .standard-section {
   width: 100%;
-  max-width: 1440px;
-  /* height: 879px; */
   margin: 0 auto;
   gap: 80px;
   padding: 60px 0px 60px 0px;
   background-color: #f7f7f7;
   background-image: url(../assets/images/bg.png);
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -196,7 +188,6 @@ body {
 .ss-div {
   width: 460.61px;
   height: 57.5px;
-  /* margin: 80px 0px; */
 }
 .ss-title {
   color: rgb(0, 0, 0);
@@ -413,9 +404,7 @@ body {
 /* ---------------------------- */
 
 .os {
-  width: 1440px;
   height: 1018.02px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -479,7 +468,6 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
-  /* gap: 10px; */
 }
 
 .date-label {
@@ -595,9 +583,9 @@ body {
 /* footer section styles */
 
 .footer {
-  width: 1439px;
   height: 519px;
   background: rgb(1, 172, 253);
+  background-color: #01acfd;
   display: flex;
   flex-direction: column;
   justify-content: center;
