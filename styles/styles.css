@@ -682,3 +682,13 @@
   margin-top: 20px;
 }
  
+.marquee {
+  padding: 8px 0;
+}
+
+.marquee__content {
+  color: #fea301;
+  font-size: 17px;
+  font-weight: 600;
+
+}
