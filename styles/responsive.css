@@ -36,6 +36,11 @@
     display: block;
   }
   /* banner section media query */
+  .banner-section {
+    /* width: 357px; */
+    height: 725px;
+    background-color: white;
+  }
 
   .banner {
     width: 100%;
@@ -67,13 +72,15 @@
 
   /* standard section media query */
   .standard-section {
+    height: 1080px;
     background-color: white;
     background-repeat: repeat-y;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
 
   .ss-title {
+    /* margin-top: 300px; */
     font-size: 26px;
   }
   .ss-cc {
@@ -170,5 +177,67 @@
 
   .ss-carousels {
     display: none;
+  }
+
+  /* Our Stories section media query */
+
+  .os {
+    max-width: 390px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin: 40px 0px 20px 0px; */
+    background: url(../assets/images/bg.png),
+      linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0),
+        rgba(254, 163, 1, 0.3) 100%
+      );
+  }
+  .os-title h1 {
+    margin-top: 20px;
+    font-size: 26px;
+  }
+  .os-cc {
+    display: flex;
+    max-width: 358px;
+    height: 382px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: none;
+  }
+
+  .os-card-left {
+    display: none;
+  }
+  .os-card-right-box {
+    width: 173.09px;
+    height: 179.59px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date-label-os {
+    width: 103.91px;
+    height: 22.83px;
+    font-size: 9.13px;
+    margin-top: -40px;
+  }
+  
+  .os-card-right-info h1 {
+    color: rgb(0, 0, 0);
+    width: 107.92px;
+    height: 20px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 9.13px;
+    font-weight: 700;
+    line-height: 17.12px;
+    letter-spacing: 0%;
+    text-align: left;
   }
 }
