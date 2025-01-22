@@ -15,7 +15,7 @@
     width: 100%;
     height: 45px;
     padding: 5px;
-    margin: 10px 0px;
+    /* margin: 10px 0px; */
   }
   .nav-logo {
     width: 39.03px;
@@ -33,6 +33,9 @@
   .hamburger-menu {
     display: block;
     padding-right: 10px;
+  }
+  .marquee{
+    display: none;
   }
   /* banner section media query */
   .banner-section {
@@ -281,6 +284,7 @@
     width: 355px;
     height: 80px;
     line-height: 25px;
+    margin: 0px;
   }
 
   .footer-section-links {
@@ -293,6 +297,7 @@
   }
   .footer-section-links h3 {
     font-size: 18px;
+    margin: 0px;
   }
   .footer-section-links ul li {
     margin-top: 10px;
@@ -303,10 +308,13 @@
     height: auto;
     padding: 20px;
   }
-  .footer-section-social ul {
+  .footer-section-social ul li{
     flex-direction: row;
+    margin: 0;
+    gap: 0px;
   }
   .footer-section-social h3 {
     font-size: 18px;
+    margin: 0px;
   }
 }
