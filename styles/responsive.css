@@ -13,11 +13,9 @@
   }
   .nav-bar {
     width: 100%;
-    max-width: 425px;
     height: 45px;
     padding: 5px;
     margin: 10px 0px;
-    justify-content: space-between;
   }
   .nav-logo {
     width: 39.03px;
