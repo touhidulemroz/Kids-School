@@ -248,7 +248,6 @@
   /* footer section media query */
   .footer {
     width: 100%;
-    max-width: 425px;
     height: 650px;
     align-items: center;
   }
