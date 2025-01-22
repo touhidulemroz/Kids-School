@@ -12,6 +12,7 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 .color-white {
   color: #f7f7f7;
@@ -406,6 +407,9 @@ body {
   text-align: center;
 }
 
+.click:hover{
+  cursor: pointer;
+}
 /* ---------------------------- */
 
 .os {
@@ -614,25 +618,19 @@ body {
   width: 399px;
   gap: 42px;
   height: 222px;
-  /* padding: 7px 7px 7px 7px;  */
 }
 
-.footer-section-about .nav-logo h1 {
-  font-style: normal;
+.footer-section-about .nav-logo p {
   font-weight: 700;
-  font-size: 42.1429px;
-  line-height: 40px;
+  font-size: 30px;
+  /* line-height: 24px; */
   color: #ffffff;
 }
 
 .footer-section-about p {
-  
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 25px;
   color: #ffffff;
-  line-height: 35px;
   padding-left: 5px;
 
 }
@@ -658,15 +656,12 @@ body {
   text-align: left;
 }
 .footer-section-links  ul {
-  /* justify-items: flex-end; */
-  /* text-align: left; */
   list-style: none;
   padding: 0;
   margin: 0;
 
 }
 .footer-section-links ul li {
-  /* gap: 10px; */
   margin-top: 15px;
 }
 
