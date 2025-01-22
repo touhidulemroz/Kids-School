@@ -409,7 +409,6 @@ body {
 /* ---------------------------- */
 
 .os {
-  
   width: 1440px;
   height: 1018.02px;
 
@@ -420,7 +419,7 @@ body {
   gap: 80px;
   padding: 60px 0px 60px 0px;
   background: url(../assets/images/bg.png),
-    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(247, 247, 247, 0.7) 100%);
 }
 
 .os-title h1 {
@@ -588,3 +587,113 @@ body {
 .purple-color {
   background: rgb(93, 88, 240);
 }
+
+.footer {
+  width: 1439px;
+  height: 519px;
+  background: rgb(1, 172, 253);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container {
+  width: 1070.91px;
+  height: 222px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 399px;
+  gap: 42px;
+  height: 222px;
+  /* padding: 7px 7px 7px 7px;  */
+}
+
+.footer-section-about .nav-logo h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42.1429px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.footer-section-about p {
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  line-height: 35px;
+  padding-left: 5px;
+
+}
+
+.footer-section-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 156px;
+  height: 222px;
+}
+
+.footer-section-links h3{
+  font-size: 24px;
+  font-weight: 700;
+
+  width: 177px;
+  height: 30px;
+
+  color: #ffffff;
+  text-align: left;
+}
+.footer-section-links  ul {
+  /* justify-items: flex-end; */
+  /* text-align: left; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+.footer-section-links ul li {
+  /* gap: 10px; */
+  margin-top: 15px;
+}
+
+.footer-section-links ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.footer-section-social h3{
+  font-size: 24px;
+  font-weight: 700;
+
+  width: 177px;
+  height: 30px;
+
+  color: #ffffff;
+  text-align: left;
+}
+
+.footer-section-social ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+ 
